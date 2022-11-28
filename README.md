@@ -15,4 +15,6 @@ TGIF-FrameQA: https://github.com/YunseokJANG/tgif-qa
 How2QA: https://github.com/VALUE-Leaderboard/DataRelease  
 TVQA: https://github.com/VALUE-Leaderboard/DataRelease  
 
+ Download preprocessed data, visual features and checkpoints from https://github.com/antoyang/FrozenBiLM/tree/main/download  
+
 
