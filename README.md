@@ -1,5 +1,5 @@
 # 597-project-video-answer
-First, run
+First, run//
 conda create -n frozenbilm_env python=3.8 
 conda activate frozenbilm_env
 conda install pytorch==1.8.1 torchvision==0.9.1 cudatoolkit=11.1 -c pytorch -c nvidia 
