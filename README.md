@@ -21,11 +21,9 @@ transformers==4.17.0
 
 **Data load**  
 Youtub-8M: http://research.google.com/youtube8m/  
-WebVid10M: https://m-bain.github.io/webvid-dataset/  
-LSMDC-FiB: https://sites.google.com/site/describingmovies/previous-years/lsmdc-2016/movie-fill-in-the-blank  
-TGIF-FrameQA: https://github.com/YunseokJANG/tgif-qa   
+WebVid10M: https://m-bain.github.io/webvid-dataset/   
 How2QA: https://github.com/VALUE-Leaderboard/DataRelease  
-TVQA: https://github.com/VALUE-Leaderboard/DataRelease   
+ActivityNet-QA: https://github.com/MILVLG/activitynet-qa  
 
 **Preprocess**  
 Download preprocessed data, visual features and checkpoints from https://github.com/antoyang/FrozenBiLM/tree/main/download  
