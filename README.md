@@ -9,13 +9,21 @@ pip install -r requirements.txt
 ```
 
 **Data load**  
+Youtub-8M: http://research.google.com/youtube8m/  
 WebVid10M: https://m-bain.github.io/webvid-dataset/  
 LSMDC-FiB: https://sites.google.com/site/describingmovies/previous-years/lsmdc-2016/movie-fill-in-the-blank  
 TGIF-FrameQA: https://github.com/YunseokJANG/tgif-qa   
 How2QA: https://github.com/VALUE-Leaderboard/DataRelease  
-TVQA: https://github.com/VALUE-Leaderboard/DataRelease  
-Youtub-8M: http://research.google.com/youtube8m/  
+TVQA: https://github.com/VALUE-Leaderboard/DataRelease   
 
- Download preprocessed data, visual features and checkpoints from https://github.com/antoyang/FrozenBiLM/tree/main/download  
+**Preprocess**
+Download preprocessed data, visual features and checkpoints from https://github.com/antoyang/FrozenBiLM/tree/main/download  
 
+**Train** 
+```
+python -m torch.distributed.launch --nproc_per_node 8 --use_env main.py \
+--combine_datasets webvid --combine_datasets_val webvid --save_dir=trainwebvid \
+--lr=3e-5 --ds_factor_ff=8 --ds_factor_attn=8 \
+--batch_size=16 --batch_size_val=16 --epochs=2 \
+```
 
