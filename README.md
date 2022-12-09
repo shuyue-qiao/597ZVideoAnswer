@@ -7,17 +7,17 @@ conda activate frozenbilm_env
 conda install pytorch==1.8.1 torchvision==0.9.1 cudatoolkit=11.1 -c pytorch -c nvidia
 ```  
 install:  
-clip
-jsonlines==3.0.0
-numpy==1.22.0
-pandas==1.4.1
-Pillow==9.3.0
-scikit-learn==1.0.2
-scipy==1.8.0
-sentencepiece==0.1.96
-tokenizers==0.11.6
-tqdm==4.63.1
-transformers==4.17.0
+clip  
+jsonlines==3.0.0  
+numpy==1.22.0  
+pandas==1.4.1  
+Pillow==9.3.0  
+scikit-learn==1.0.2  
+scipy==1.8.0  
+sentencepiece==0.1.96  
+tokenizers==0.11.6  
+tqdm==4.63.1  
+transformers==4.17.0  
 
 **Data load**  
 Youtub-8M: http://research.google.com/youtube8m/  
